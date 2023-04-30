@@ -1,8 +1,8 @@
 ﻿using Nj.Core.Websocket.Extensions;
 
 CancellationTokenSource _cts = new CancellationTokenSource();
-var password = "NILWXLbPUHrzO8pm";
-var uri = new Uri($"ws://192.168.1.38:4455");
+var password = "";
+var uri = new Uri($"ws://127.0.0.1:4455");
 NjWebsocket socket = new();
 
 _cts = new CancellationTokenSource();
